@@ -5,6 +5,7 @@ import BackgroundVed from '../components/BackgroundVed';
 import Benefits from '../components/Benefits';
 import '../App.css';
 import Courses from './Courses';
+import MiniCourse from './MiniCourse';
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <BackgroundVed/>
       <Benefits/>
       <Courses/>
+      <MiniCourse/>
     </div>
   )
 }

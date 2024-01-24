@@ -8,7 +8,7 @@ const MiniCard = ({item}) => {
           <img src={item.iconImage} alt="" />
         </div>
         <div className="detail">
-          <h5>{item.title}</h5>
+          <h4>{item.title}</h4>
           <p>{item.total}</p>
         </div>
       </div>
@@ -22,14 +22,14 @@ const Wrapper = styled.div`
   .main {
     padding: 1rem;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
-    background-color: #f0f8ff;
-    max-width: 200px;
+    background-color: #ffffff;
+    width: 200px;
     height: 36vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid blue;
+    border: 1px solid #f0f8ff;
     .icon {
       img {
         margin: 0.2rem;
@@ -40,7 +40,7 @@ const Wrapper = styled.div`
       }
     }
     .detail {
-      h5 {
+      h4 {
         margin: 1rem;
       }
       p {

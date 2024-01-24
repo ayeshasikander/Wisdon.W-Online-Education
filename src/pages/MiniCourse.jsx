@@ -1,11 +1,11 @@
 import React from 'react';
 import MiniCard from '../components/MiniCard';
 import styled from 'styled-components';
-import miniData from './miniCourse';
+import miniData from './onlineCourse';
 const MiniCourse = () => {
   return (
     <Wrapper className='Courses'>
-      <h4>COURSES</h4>
+      <h5>COURSES</h5>
       <h1>Browse Our Online Courses</h1>
       <div className="section">
         {
@@ -27,8 +27,14 @@ justify-content: center;
 align-items: center;
 width: 100%;
 padding: 1rem;
+h5{
+  color: blue;
+  font-weight: 700;
+}
 .section{
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     padding: 2rem;
 }

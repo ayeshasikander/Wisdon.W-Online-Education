@@ -6,6 +6,7 @@ import Benefits from '../components/Benefits';
 import '../App.css';
 import Courses from './Courses';
 import MiniCourse from './MiniCourse';
+import Testimonial from './Testimonial';
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Benefits/>
       <Courses/>
       <MiniCourse/>
+      <Testimonial/>
     </div>
   )
 }

@@ -13,14 +13,14 @@ let feedback = [
     {
         id: 2,
         profileImage: profile2,
-        name: "Roger Smith",
+        name: "Alisa",
         passion: "Market Manager",
         content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, voluptatum dolores aperiam consequatur soluta animi impedit."
     },
     {
         id: 3,
         profileImage: profile3,
-        name: "Alisa",
+        name: "Roger Smith",
         passion: "Graphic Designer",
         content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, voluptatum dolores aperiam consequatur soluta animi impedit."
     }

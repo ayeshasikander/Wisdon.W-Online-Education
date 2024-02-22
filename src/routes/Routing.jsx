@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 import Home from '../screen/Home';
 import BenefitPage from '../screen/BenefitPage';
 import Courses from '../screen/Courses';
@@ -16,6 +17,7 @@ const Routing = () => {
         <Route exact path='/courses' element={<Courses />} />
         <Route exact path='/testimonials' element={<Testimonial />} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
   )
 }

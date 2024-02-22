@@ -7,17 +7,20 @@ import '../App.css';
 import Courses from './Courses';
 import MiniCourse from './MiniCourse';
 import Testimonial from './Testimonial';
+import Contact from './Contact';
+import Journals from './Journals';
 
 const Home = () => {
   return (
     <div>
-     
       <Navbar/>
       <BackgroundVed/>
       <Benefits/>
       <Courses/>
       <MiniCourse/>
       <Testimonial/>
+      <Journals/>
+      <Contact/>
     </div>
   )
 }

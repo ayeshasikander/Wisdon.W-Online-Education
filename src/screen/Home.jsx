@@ -11,7 +11,7 @@ import Testimonial from './Testimonial';
 const Home = () => {
   return (
     <div>
-      <Header/>
+     
       <Navbar/>
       <BackgroundVed/>
       <Benefits/>
